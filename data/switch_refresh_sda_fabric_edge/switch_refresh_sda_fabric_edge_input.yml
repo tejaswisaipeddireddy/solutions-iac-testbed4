@@ -12,9 +12,9 @@ switch_refresh_sda_fabric_edge_hostname_validation_retries: 12
 switch_refresh_sda_fabric_edge_hostname_validation_interval: 10
 
 switch_refresh_sda_fabric_edge_inventory_credentials:
-  username: "<username>"
-  password: "<password>"
-  enable_password: "<enable_password>"
+  username: "REPLACE_USERNAME"
+  password: "REPLACE_PASSWORD"
+  enable_password: "REPLACE_ENABLE_PASSWORD"
   cli_transport: ssh
   type: NETWORK_DEVICE
 
