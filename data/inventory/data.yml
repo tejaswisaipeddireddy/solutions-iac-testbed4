@@ -1,0 +1,7 @@
+---
+inventory_details:
+  network_devices:
+    - ip_address_list:
+        - "204.1.3.248"
+        - "204.1.3.249"
+      role: "ACCESS"
