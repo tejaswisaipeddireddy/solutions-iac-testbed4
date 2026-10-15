@@ -1,0 +1,6 @@
+---
+provision_details:
+  - management_ip_address: "204.1.2.6"
+    site_name_hierarchy: "Global/USA/San Jose/BLDG23"
+    provisioning: true
+    force_provisioning: true

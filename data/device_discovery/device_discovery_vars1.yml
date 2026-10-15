@@ -1,0 +1,17 @@
+---
+discovery_details:
+  single:
+    - discovery_name: "EN2_Discovery"
+      discovery_type: "SINGLE"
+      ip_address_list:
+        - "204.1.2.6"
+      devices_list: []
+      protocol_order: "ssh"
+      timeout: 30
+      retry: 2
+      discovery_specific_credentials:
+        cli_credentials_list:
+          - description: "switch_cli"
+            username: "REPLACE_USERNAME"
+            password: "REPLACE_PASSWORD"
+            enable_password: "REPLACE_ENABLE_PASSWORD"

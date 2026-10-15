@@ -1,0 +1,8 @@
+---
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: "Global/USA/San Jose/BLDG23"
+      device_config:
+        - device_ip: "204.1.2.6"
+          device_roles:
+            - "EDGE_NODE"

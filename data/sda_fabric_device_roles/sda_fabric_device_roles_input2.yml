@@ -1,0 +1,36 @@
+---
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: "Global/USA/San Jose/BLDG23"
+      device_config:
+        - device_ip: "204.1.2.2"
+          device_roles:
+            - CONTROL_PLANE_NODE
+            - BORDER_NODE
+          borders_settings:
+            layer3_settings:
+              local_autonomous_system_number: 65001
+              border_priority: 1
+              prepend_autonomous_system_count: 1
+            layer3_handoff_ip_transit:
+              - transit_network_name: "IAC-TB4-TC-9300.cisco.com"
+                interface_name: "GigabitEthernet1/0/1"
+                virtual_network_name: "BLDG23_Campus_VN"
+                vlan_id: 440
+                local_ip_address: "204.1.100.5/30"
+                remote_ip_address: "204.1.100.6/30"
+                tcp_mss_adjustment: 510
+              - transit_network_name: "IAC-TB4-TC-9300.cisco.com"
+                interface_name: "GigabitEthernet1/0/1"
+                virtual_network_name: "INFRA_VN"
+                vlan_id: 441
+                local_ip_address: "204.1.100.9/30"
+                remote_ip_address: "204.1.100.10/30"
+                tcp_mss_adjustment: 510
+              - transit_network_name: "IAC-TB4-TC-9300.cisco.com"
+                interface_name: "GigabitEthernet1/0/1"
+                virtual_network_name: "SJ_VN"
+                vlan_id: 442
+                local_ip_address: "204.1.100.13/30"
+                remote_ip_address: "204.1.100.14/30"
+                tcp_mss_adjustment: 510

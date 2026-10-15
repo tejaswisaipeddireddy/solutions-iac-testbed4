@@ -1,0 +1,4 @@
+---
+sda_device_removal_and_unprovision:
+  - device_name: "IAC-TB4-SJ-EN1-9300.cisco.com"
+    fabric_site_name_hierarchy: "Global/USA/San Jose/BLDG23"

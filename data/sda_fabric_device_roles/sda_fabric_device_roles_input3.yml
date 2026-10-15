@@ -1,0 +1,13 @@
+---
+fabric_devices_details:
+  - fabric_devices:
+      fabric_name: "Global/USA/San Jose/BLDG23"
+      device_config:
+        - device_ip: "204.1.2.3"
+          device_roles:
+            - BORDER_NODE
+          borders_settings:
+            layer3_settings:
+              local_autonomous_system_number: 65001
+              is_default_exit: true
+              import_external_routes: false
