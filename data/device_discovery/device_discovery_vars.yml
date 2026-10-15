@@ -5,6 +5,7 @@ discovery_details:
       discovery_type: "SINGLE"
       ip_address_list:
         - "204.1.2.5"
+        - "204.1.2.6"
       devices_list: []
       protocol_order: "ssh"
       timeout: 30

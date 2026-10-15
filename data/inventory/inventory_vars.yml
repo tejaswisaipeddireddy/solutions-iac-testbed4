@@ -3,4 +3,5 @@ inventory_details:
   network_devices:
     - ip_address_list:
         - "204.1.2.5"
+        - "204.1.2.6"
       role: "ACCESS"

@@ -4,6 +4,7 @@ network_devices_info_details:
       - device_identifier:
           - ip_address:
               - "204.1.2.5"
+              - "204.1.2.6"
         timeout: 600
         retries: 10
         interval: 30
